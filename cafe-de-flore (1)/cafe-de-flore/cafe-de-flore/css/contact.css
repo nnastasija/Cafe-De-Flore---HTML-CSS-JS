@@ -1,0 +1,203 @@
+*, html{
+  margin:0;
+  padding: 0;
+}
+
+.body{
+  margin: 0;
+  padding: 0;  
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+
+}
+
+header{
+  padding: 0 70px;
+  width: 100%;
+  height: auto;
+  background:#966116;
+  box-shadow: 0 5px 15px #220c07;
+  box-sizing: border-box; 
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: right;
+  display: flex;
+}
+
+li{
+  list-style: none;
+ 
+}
+
+ul li a{
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #f0e7e5;
+}
+
+li a:hover {
+  color: rgb(131, 54, 18);
+  transition: .2s;
+}
+
+header .current a{
+  color: rgb(131, 54, 18);
+} 
+
+@media (max-width: 992px){
+  
+  header {
+      margin: 0;
+      padding: 0 0;
+      box-sizing: border-box;
+      box-shadow: 0 5px 15px #381307;
+      height: 220px;
+  }
+
+  header ul{
+      width: 100%;
+      top:0;
+      display: block;
+  }
+  
+  .logo{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100px ;
+      height: 70px;
+     
+  }
+  
+
+  header ul li a{
+      margin: 0;
+      display: block;
+      text-align: center;
+      color: #8b3320;
+      background: #f3b89d;
+        }
+
+
+  
+  header .menu_bar {
+     margin-top: 3px;
+     box-sizing: border-box;
+     box-shadow: 0 5px 15px #24100b;
+  }
+
+
+}
+
+
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 1366px;
+  height: 625x;
+  
+}
+.home {
+  width: 1366px;
+  height: 625px;
+  background: #333;
+  background: url(https://image.freepik.com/free-photo/flat-lay-desk-with-laptop-glasses_23-2148284275.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+ 
+}
+h1 {
+  font-size: 50px;
+  padding-top: 300px;
+  padding-left: 400px;
+}
+
+h2{
+  font-size: 50px;
+  padding-left: 265px;
+}
+
+.media-container {
+  display: flex;
+  padding-left: 400px;
+  margin: 20px 0 40px 0;
+}
+.medias-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(163, 162, 162);
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icones {
+  width: 27px;
+}
+
+
+
+
+.typing{
+ position: absolute;
+ margin-left: 400px;
+ margin-top: -59px ;
+ display: flex;
+ color: chocolate;
+ 
+}
+
+.typing::after{
+  content: '';
+  position: absolute;
+  right: -7px;
+  width: 1px;
+  height: 70%;
+  border-right: 2px solid white;
+  animation: blink 0.7s infinite ease-out;
+  
+  margin-left: 400px;
+ margin-top: -59px ;
+ color: chocolate;
+ display: flex;
+}   
+
+@keyframes blink {
+0%{
+  opacity: 0;
+}
+50%{
+  opacity: 1;
+}
+100%{
+  opacity: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

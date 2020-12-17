@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/review.css">
+    <title>Cafe De Flore- Review</title>
+</head>
+<body >
+        <header>
+                <a href="index.html">
+                    <img src="img/logo1.png"logo>
+                </a>
+                        
+                <ul class="menu_bar">
+                    <li >
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li class="current">
+                        <a href="review.html">Review</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"> Contacts</a>
+                    </li>
+                </ul>
+            </header>
+    <div class="all">
+
+    <form class="form" name="form1" action="#" onsubmit="required()">
+        <label><b>Your name:</b> </label> <br>
+        <input type="text" name = 'text1'class="input"> <br>
+
+        <label><b>Your opinion:</b></label> <br>
+        <textarea rows="5 "cols="20" placeholder="Type here..." name='text2'></textarea> <br>
+
+        <label><b>Review:</b></label> <br>
+        <select >
+            <option value="love it">Love it</option>
+            <option value="hate it" >  Hate it</option>
+            
+        </select>
+        <br>
+
+        <label><b>Your e-mail:</b></label> <br>
+        <input type="email" class="input">
+        <br>
+
+        <input type="submit" name="submit" value="Share" class="button"/>
+
+    </form>
+    </div>
+
+    <div class="output">
+        <script>
+           var now = new Date();    
+           document.write("<font size='+1'>");
+           var hours=now.getHours();
+           var minutes=now.getMinutes();
+           var seconds=now.getSeconds();
+           var month=now.getMonth() +1;
+           var day=now.getDate();
+           var year=now.getFullYear();
+           document.write( day + ":" + month + ":" + year +"<br>");
+           document.write( hours + ":" + minutes + ":" + seconds);
+           document.write("</font>");
+         </script>
+      </div>
+  <script src="js/review.js"></script>
+
+</body>
+</html>
